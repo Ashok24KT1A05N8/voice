@@ -1,0 +1,6 @@
+{
+  "name": "Voice Commander - MongoDB Voice Assistant & Automation Database",
+  "description": "Intelligent voice assistant and automation suite powered by MongoDB database storage for commands, voice notes, triggers, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

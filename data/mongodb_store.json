@@ -1,0 +1,176 @@
+{
+  "commands": [
+    {
+      "id": 1794391205665,
+      "command": "open my workspace",
+      "response": "Opening your developer workspace on GitHub.",
+      "status": "SUCCESS",
+      "category": "CUSTOM",
+      "source": "voice",
+      "timestamp": "2026-11-11T10:00:05.665Z",
+      "action": "OPEN_URL",
+      "targetUrl": "https://github.com",
+      "executionTimeMs": 25
+    },
+    {
+      "id": 1794391197130,
+      "command": "Add note buy groceries and fresh fruit",
+      "response": "Note stored in MongoDB: \"buy groceries and fresh fruit\"",
+      "status": "SUCCESS",
+      "category": "NOTES",
+      "source": "voice",
+      "timestamp": "2026-11-11T09:59:57.130Z",
+      "action": "ADD_NOTE",
+      "executionTimeMs": 1
+    },
+    {
+      "id": 1,
+      "command": "what is the time",
+      "response": "The current time is 09:59 AM",
+      "status": "SUCCESS",
+      "category": "SYSTEM",
+      "source": "voice",
+      "action": "SHOW_TIME",
+      "executionTimeMs": 42,
+      "timestamp": "2026-11-11T09:49:50.365Z"
+    },
+    {
+      "id": 2,
+      "command": "open github",
+      "response": "Opening GitHub.",
+      "status": "SUCCESS",
+      "category": "WEB",
+      "source": "voice",
+      "action": "OPEN_URL",
+      "targetUrl": "https://github.com",
+      "executionTimeMs": 38,
+      "timestamp": "2026-11-11T09:29:50.365Z"
+    },
+    {
+      "id": 3,
+      "command": "who are you",
+      "response": "I am Voice Commander, your AI-powered smart voice assistant backed by MongoDB.",
+      "status": "SUCCESS",
+      "category": "GENERAL",
+      "source": "text",
+      "action": "SPEAK",
+      "executionTimeMs": 65,
+      "timestamp": "2026-11-11T08:59:50.365Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1794391197130,
+      "title": "Voice Note",
+      "content": "buy groceries and fresh fruit",
+      "category": "Voice",
+      "color": "#8B5CF6",
+      "pinned": false,
+      "tags": [
+        "voice",
+        "transcription"
+      ],
+      "createdAt": "2026-11-11T09:59:57.130Z",
+      "updatedAt": "2026-11-11T09:59:57.130Z"
+    },
+    {
+      "id": 1,
+      "title": "MongoDB Integration Active",
+      "content": "Voice Commander is now backed by a full MongoDB database engine for voice logs, custom voice triggers, and notes.",
+      "category": "System",
+      "color": "#10B981",
+      "pinned": true,
+      "tags": [
+        "mongodb",
+        "system",
+        "database"
+      ],
+      "createdAt": "2026-11-11T08:59:50.305Z",
+      "updatedAt": "2026-11-11T08:59:50.306Z"
+    },
+    {
+      "id": 2,
+      "title": "Voice Commands & Automations",
+      "content": "Speak \"Open YouTube\", \"Add note meeting tomorrow\", or create custom triggers stored in the database.",
+      "category": "Guides",
+      "color": "#8B5CF6",
+      "pinned": true,
+      "tags": [
+        "voice",
+        "productivity"
+      ],
+      "createdAt": "2026-11-11T07:59:50.306Z",
+      "updatedAt": "2026-11-11T07:59:50.306Z"
+    },
+    {
+      "id": 3,
+      "title": "Project Roadmap Checklist",
+      "content": "1. Test MongoDB Atlas cluster URI.\n2. Add custom wake trigger.\n3. Export command logs for analytics.",
+      "category": "Work",
+      "color": "#3B82F6",
+      "pinned": false,
+      "tags": [
+        "roadmap",
+        "todo"
+      ],
+      "createdAt": "2026-11-11T05:59:50.306Z",
+      "updatedAt": "2026-11-11T05:59:50.306Z"
+    }
+  ],
+  "custom_triggers": [
+    {
+      "id": 1,
+      "triggerPhrase": "open my workspace",
+      "actionType": "OPEN_URL",
+      "actionValue": "https://github.com",
+      "response": "Opening your developer workspace on GitHub.",
+      "category": "Productivity",
+      "enabled": true,
+      "executionCount": 6,
+      "lastExecutedAt": "2026-11-11T10:00:05.665Z",
+      "createdAt": "2026-11-10T09:59:50.306Z"
+    },
+    {
+      "id": 2,
+      "triggerPhrase": "launch music",
+      "actionType": "OPEN_URL",
+      "actionValue": "https://music.youtube.com",
+      "response": "Playing relaxing focus beats on YouTube Music.",
+      "category": "Media",
+      "enabled": true,
+      "executionCount": 12,
+      "lastExecutedAt": "2026-11-11T09:29:50.306Z",
+      "createdAt": "2026-11-10T09:59:50.306Z"
+    },
+    {
+      "id": 3,
+      "triggerPhrase": "system status check",
+      "actionType": "SPEAK",
+      "actionValue": "MongoDB database is healthy, microphone active, all voice synthesis systems fully operational.",
+      "response": "MongoDB database is healthy, microphone active, all voice synthesis systems fully operational.",
+      "category": "System",
+      "enabled": true,
+      "executionCount": 8,
+      "lastExecutedAt": "2026-11-11T09:44:50.306Z",
+      "createdAt": "2026-11-10T09:59:50.306Z"
+    }
+  ],
+  "user_settings": {
+    "language": "en-US",
+    "voiceName": "",
+    "rate": 1,
+    "pitch": 1,
+    "volume": 1,
+    "voiceResponsesEnabled": true,
+    "soundEffectsEnabled": true,
+    "continuousListening": false,
+    "wakeWordEnabled": true,
+    "wakeWord": "Commander"
+  },
+  "meta": {
+    "dbName": "voice_commander_embedded",
+    "version": "1.0.0",
+    "createdAt": "2026-11-11T09:59:50.366Z",
+    "updatedAt": "2026-11-11T10:00:05.665Z"
+  }
+}
